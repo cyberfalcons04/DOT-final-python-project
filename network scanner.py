@@ -1,3 +1,4 @@
+#Network scanner by wissam telfah
 import socket
 import ipaddress
 from scapy.all import ARP, Ether, srp
@@ -71,5 +72,6 @@ def arp_scan():
 print(f'Local IP: {getting_ip()}')
 print(f'Host Name: {getting_host()}')
 print(f'Domain Name: {domain()}')
+
 
 arp_scan()
