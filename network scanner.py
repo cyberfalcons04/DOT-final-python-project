@@ -23,7 +23,7 @@ def domain():
 def scan_network():
     local_ip = getting_ip()
     network = ipaddress.ip_network(local_ip + "/24", strict=False)
-    print("\n[+] Scanning network range:", network)
+    print("\n Scanning network range:", network)
     for ip in network.hosts():
         print(ip)    
     arp = ARP(pdst=str(network))
@@ -75,3 +75,4 @@ print(f'Domain Name: {domain()}')
 
 
 arp_scan()
+
