@@ -1,4 +1,4 @@
-#ENCRYPTIOM BY RAMA TAANI
+#ENCRYPTION BY RAMA TAANI
 import string
 
 def rot13_char(c):
