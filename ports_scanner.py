@@ -1,3 +1,4 @@
+#Ports scanner by abd alrahman al shomaly
 #importing required libraries
 import socket
 import winsound 
@@ -57,6 +58,7 @@ print( Fore.GREEN + f"you have {len(closed)} closed ports: {closed}")
 print(Style.RESET_ALL)
 print( Fore.RED+f"you have {len(open)} open ports: {open}")
 print(Style.RESET_ALL)
+
 
 
 
