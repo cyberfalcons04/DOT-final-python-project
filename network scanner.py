@@ -1,4 +1,7 @@
 #Network scanner by wissam telfah
+#Don't forget to install the required libraries
+#if the program doesn't working ,maybe you need to install Npcap(a program from nmap)
+#https://nmap.org/npcap/   (link to download Npcap)
 import socket
 import ipaddress
 from scapy.all import ARP, Ether, srp
@@ -75,4 +78,5 @@ print(f'Domain Name: {domain()}')
 
 
 arp_scan()
+
 
